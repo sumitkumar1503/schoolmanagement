@@ -1,3 +1,2 @@
 # schoolmanagement
-pip install django==3.0.5
-pip install django-widget-tweaks
+any suggestion/feedback most welcome || msg on fb.com/sumit.luv

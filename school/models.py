@@ -3,7 +3,6 @@ from django.contrib.auth.models import User
 # Create your models here.
 
 
-
 class TeacherExtra(models.Model):
     user=models.OneToOneField(User,on_delete=models.CASCADE)
     salary = models.PositiveIntegerField(null=False)

@@ -18,7 +18,7 @@ First student will take admission/signup.
 When their account is approved by admin then only student can access their dashboard.
 After account approval by admin then student can view their details like attendance.
 Student cant view attendance of other student.
-Student can announce anything only they can view.
+Student cant announce anything only they can view.
 
 ### Admin
 First admin will signup their account.
@@ -41,5 +41,5 @@ pip install django-widget-tweaks
 
 
 ## Feedback
-Any suggestion and feedback is welcome. You can massage me on facebook
-- [Sumit Luv on Facebook](https://fb.com/sumit.luv)
+Any suggestion and feedback is welcome. You can message me on facebook
+- [Sumit on Facebook](https://fb.com/sumit.luv)

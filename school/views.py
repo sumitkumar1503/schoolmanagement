@@ -8,7 +8,7 @@ from django.contrib.auth.decorators import login_required,user_passes_test
 def home_view(request):
     if request.user.is_authenticated:
         return HttpResponseRedirect('afterlogin')
-    return render(request,'School/index.html')
+    return render(request,'school/index.html')
 
 
 

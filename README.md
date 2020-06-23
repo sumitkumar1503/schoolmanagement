@@ -39,6 +39,10 @@ pip install django==3.0.5
 pip install django-widget-tweaks
 ```
 
+## Disclaimer
+
+This project is developed for demo purpose and it's not supposed to be used in real application.
+
 
 ## Feedback
 Any suggestion and feedback is welcome. You can message me on facebook

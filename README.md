@@ -1,10 +1,6 @@
 # Schoolmanagement
-
-## Following software is used in this project
-- Python Version 3.7.6
-- Django Version 3.0.5
-- Django-widget-tweaks
-- Sqlite3
+![developer](https://img.shields.io/badge/Developed%20By%20%3A-Sumit%20Kumar-red)
+---
 
 
 ## Functions
@@ -32,18 +28,41 @@ Admin can announce any notice.
 ## Drawbacks
 On update page of teacher/student you must have to update password.
 
-
-## Pip install required packages
+## HOW TO RUN THIS PROJECT
+- Install Python(3.7.6) (Dont Forget to Tick Add to Path while installing Python)
+- Open Terminal and Execute Following Commands :
 ```
 pip install django==3.0.5
 pip install django-widget-tweaks
+pip install xhtml2pdf
+```
+- Download This Project Zip Folder and Extract it
+- Move to project folder in Terminal. Then run following Commands :
+```
+py manage.py makemigrations
+py manage.py migrate
+py manage.py runserver
+```
+- Now enter following URL in Your Browser Installed On Your Pc
+```
+http://127.0.0.1:8000/
 ```
 
+## CHANGES REQUIRED FOR CONTACT US PAGE
+- In settins.py file, You have to give your email and password
+```
+EMAIL_HOST_USER = 'youremail@gmail.com'
+EMAIL_HOST_PASSWORD = 'your email password'
+EMAIL_RECEIVING_USER = 'youremail@gmail.com'
+```
+- Login to gmail through host email id in your browser and open following link and turn it ON
+```
+https://myaccount.google.com/lesssecureapps
+```
 ## Disclaimer
-
 This project is developed for demo purpose and it's not supposed to be used in real application.
-
 
 ## Feedback
 Any suggestion and feedback is welcome. You can message me on facebook
-- [Sumit on Facebook](https://fb.com/sumit.luv)
+- [Contact on Facebook](https://fb.com/sumit.luv)
+- [Subscribe my Channel LazyCoder On Youtube](https://youtube.com/lazycoders)

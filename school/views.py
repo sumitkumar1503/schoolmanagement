@@ -129,6 +129,10 @@ def afterlogin_view(request):
             return redirect('student-dashboard')
         else:
             return render(request,'school/student_wait_for_approval.html')
+    if request.user.is_superuser:
+        return render(request,'school/admin_dashboard.html')
+
+    return HttpResponse("Please Login with correct credentials.")
 
 
 

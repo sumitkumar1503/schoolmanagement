@@ -8,6 +8,11 @@ from django.urls import path
 from school import views
 from django.contrib.auth.views import LoginView,LogoutView
 
+
+admin.site.site_header = "School Management System Administration"
+admin.site.site_title = "School Management System Administration"
+admin.site.index_title = "Welcome to School Management System Admin Panel"
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home_view,name=''),
